@@ -1,0 +1,9 @@
+
+import React from "react";
+import ReactDOM from "react-dom/client";
+import Website from "./Website";
+import "./style.css";
+
+ReactDOM.createRoot(document.getElementById("root")).render(
+  <Website/>
+);
