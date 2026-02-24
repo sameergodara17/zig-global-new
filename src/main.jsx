@@ -1,9 +1,10 @@
-import "./style.css";
 import React from "react";
 import ReactDOM from "react-dom/client";
-import Website from "./Website";
+import Website from "./Website.jsx";
 import "./style.css";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
-  <Website/>
+  <React.StrictMode>
+    <Website />
+  </React.StrictMode>
 );
